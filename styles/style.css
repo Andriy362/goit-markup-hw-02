@@ -5,6 +5,7 @@
     --first-btn-color: #2196f3;
     --second-btn-color: #ffffff;
     --background-color: #2F303A;
+    --background-color-next: #F5F4FA;
 }
 
 body {
@@ -21,17 +22,34 @@ a {
 
 /* --------------HEADER------------ */
 
-.header-logo-color {
-    color: var(--first-btn-color);
+
+.header-logo-black {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+.header-logo-color-white {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--second-btn-color);
 }
 
-.header-logo {
+
+.header-logo-color {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--header-color);
+    color: var(--first-btn-color)
 }
 
 .header-link {
@@ -84,7 +102,14 @@ a {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--second-btn-color);
+    background-color: var(--first-btn-color);
+    align-items: center;
+    text-align: center;
     cursor: pointer;
+    display: flex;
+    border: none;
+    border-radius: 4px;
+    
 }
 
 .selection-one {
@@ -103,7 +128,10 @@ a {
     color: var(--first-title-color);
 }
 
+
+
 .hero-text {
+    
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -117,28 +145,38 @@ a {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    
     letter-spacing: 0.03em;
     color: var(--first-title-color);
 }
 
 /* ------------------SELECTION-FOUR------------ */
+.headline-one
+{
+    background-color: var(--background-color-next);
+}
 
+.subtitle-icon {
+    width: 270px;
+    background-color: var(--second-btn-color);
+}
 .subtitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-title-color);
+    text-align: center;
 }
 
 .subtitle-text {
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    
 }
+
 
 /* ------------------FOOTER------------ */
 
@@ -168,8 +206,7 @@ a {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-item:hover,
-.footer-item:focus,
+
 .footer-mailto:hover,
 .footer-mailto:focus,
 .footer-tel:hover,
