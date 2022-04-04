@@ -112,8 +112,10 @@ color: var(--second-btn-color);
     
 }
 
-.btn-lis-button{
-background-color: var(--first-btn-color);
+.btn-list
+{
+    color: var(--first-title-color);
+background-color: #F5F4FA;
 }
 .selection-one {
 
