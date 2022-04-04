@@ -112,6 +112,9 @@ color: var(--second-btn-color);
     
 }
 
+.btn-lis-button{
+background-color: var(--first-btn-color);
+}
 .selection-one {
 
     background-color: var(--background-color)
