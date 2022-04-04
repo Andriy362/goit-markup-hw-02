@@ -1,0 +1,178 @@
+:root {
+    --header-color: #000000;
+    --first-title-color: #212121;
+    --second-title-color: #757575;
+    --first-btn-color: #2196f3;
+    --second-btn-color: #ffffff;
+    --background-color: #2F303A;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* --------------HEADER------------ */
+
+.header-logo-color {
+    color: var(--first-btn-color);
+}
+
+.header-logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--header-color);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-title-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--first-btn-color);
+}
+
+.header-tel,
+.header-mailto {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+
+.header-mailto:hover,
+.header-tel:hover,
+.header-mailto:focus,
+.header-tel:focus {
+    color: var(--first-btn-color);
+}
+
+/* ------------------SELECTION-ONE------------ */
+
+.selection-title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--second-btn-color);
+
+}
+
+.selection-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--second-btn-color);
+    cursor: pointer;
+}
+
+.selection-one {
+
+    background-color: var(--background-color)
+}
+
+/* ------------------SELECTION-TWO------------ */
+
+.hero-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--first-title-color);
+}
+
+.hero-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+/* ------------------SELECTION-THREE------------ */
+
+.headline {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+}
+
+/* ------------------SELECTION-FOUR------------ */
+
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+}
+
+.subtitle-text {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
+
+/* ------------------FOOTER------------ */
+
+.footer {
+
+    background-color: var(--background-color)
+}
+
+.footer-item {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-btn-color);
+}
+
+.footer-mailto {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item:hover,
+.footer-item:focus,
+.footer-mailto:hover,
+.footer-mailto:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--first-btn-color);
+}
