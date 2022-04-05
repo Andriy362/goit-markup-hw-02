@@ -59,6 +59,13 @@ color: var(--second-btn-color);
     letter-spacing: 0.02em;
     color: var(--first-title-color);
 }
+.header-link-another {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--first-btn-color);
+}
 
 .header-link:hover,
 .header-link:focus,
@@ -289,12 +296,3 @@ background-color: #F5F4FA;
 
 
 
-.main-link {
-    color: var(--second-title-color);
-    text-decoration: none;
-}
-
-.main-link:hover,
-.main-link:focus {
-    background-color: var(--first-btn-color);
-}
