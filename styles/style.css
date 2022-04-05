@@ -72,7 +72,9 @@ color: var(--second-btn-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
+    
 }
+
 
 .header-mailto:hover,
 .header-tel:hover,
@@ -179,6 +181,7 @@ background-color: #F5F4FA;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
+    text-align: center;
     
 }
 
@@ -191,6 +194,7 @@ background-color: #F5F4FA;
 }
 
 .footer-item {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -198,6 +202,7 @@ background-color: #F5F4FA;
 }
 
 .footer-mailto {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -205,6 +210,7 @@ background-color: #F5F4FA;
 }
 
 .footer-tel {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
