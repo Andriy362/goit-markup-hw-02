@@ -59,14 +59,7 @@ color: var(--second-btn-color);
     letter-spacing: 0.02em;
     color: var(--first-title-color);
 }
-.header-link-studio{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--first-btn-color);
 
-}
 .header-link-another {
     font-weight: 500;
     font-size: 14px;
