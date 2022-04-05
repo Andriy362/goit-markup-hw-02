@@ -286,3 +286,15 @@ background-color: #F5F4FA;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
 }
+
+
+
+.main-link {
+    color: var(--second-title-color);
+    text-decoration: none;
+}
+
+.main-link:hover,
+.main-link:focus {
+    background-color: var(--first-btn-color);
+}
