@@ -28,7 +28,7 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
@@ -37,7 +37,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--second-btn-color);
 }
@@ -61,7 +61,12 @@ color: var(--second-btn-color);
 }
 
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.header-logo-black:hover,
+.header-logo-black:focus,
+.header-logo-color-white:hover,
+.header-logo-color-white:focus
+ {
     color: var(--first-btn-color);
 }
 
@@ -75,11 +80,14 @@ color: var(--second-btn-color);
     
 }
 
-
 .header-mailto:hover,
 .header-tel:hover,
 .header-mailto:focus,
-.header-tel:focus {
+.header-tel:focus, 
+.header-logo-black:hover, 
+.header-logo-black:focus
+
+{
     color: var(--first-btn-color);
 }
 
